@@ -13,7 +13,7 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 
 COPY app.py .
 
-COPY amazon.sh .
+COPY base.sh .
 
 RUN chmod +x ./base.sh
 
