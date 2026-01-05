@@ -15,7 +15,7 @@ COPY app.py .
 
 COPY amazon.sh .
 
-RUN chmod +x amazon.sh
+RUN chmod +x ./amazon.sh
 
 EXPOSE 8080
 
